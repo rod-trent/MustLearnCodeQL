@@ -2,9 +2,12 @@
 
 Companion repository for the *Must Learn CodeQL* book by Rod Trent.
 
+![Cover](images/cover.jpg)
+
 ## Structure
 
-- `Book_Version/` – The current edition of the book (DOCX).
+- `Book_Version/` – The current edition of the book (DOCX) and cover.
+- `images/` – Book cover and other assets.
 - `examples/` – Runnable CodeQL queries and supporting files, organized by chapter.
   - `chapter01/` … `chapter15/` – Examples referenced in the corresponding book chapter.
 - `scripts/` – Helper scripts for database creation and common workflows.
