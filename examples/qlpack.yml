@@ -1,0 +1,5 @@
+name: mustlearn/codeql-examples
+version: 1.0.0
+dependencies:
+  codeql/javascript-all: "*"
+  codeql/python-all: "*"
