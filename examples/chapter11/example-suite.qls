@@ -1,0 +1,8 @@
+# Example query suite
+- description: Example security queries
+- queries: .
+  from: mustlearn/example-queries
+  include:
+    kind:
+    - path-problem
+    - problem
