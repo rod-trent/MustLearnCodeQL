@@ -1,0 +1,6 @@
+{
+  "name": "mustlearn-codeql-sample",
+  "version": "1.0.0",
+  "description": "Minimal JavaScript project for Chapter 2 database creation",
+  "main": "app.js"
+}
