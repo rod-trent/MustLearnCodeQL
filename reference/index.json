@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.33.0",
+  "version": "0.34.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -275,6 +275,20 @@
       "category": "cli",
       "path": "cli/debugging-workflow.md",
       "summary": "Steps for debugging slow or incorrect queries."
+    },
+    {
+      "id": "cli-custom-pack-workflow",
+      "title": "Custom Query Pack Workflow",
+      "category": "cli",
+      "path": "cli/custom-pack-workflow.md",
+      "summary": "Create, test, and publish a custom query pack."
+    },
+    {
+      "id": "cli-multi-language-workflow",
+      "title": "Multi-language Workflow",
+      "category": "cli",
+      "path": "cli/multi-language-workflow.md",
+      "summary": "Analyze multiple languages in a monorepo."
     },
     {
       "id": "ql-overview",
