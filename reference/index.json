@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -214,6 +214,20 @@
       "summary": "Expand inclusion/exclusion globs into a concrete file list."
     },
     {
+      "id": "cli-pack-ci",
+      "title": "pack ci",
+      "category": "cli",
+      "path": "cli/pack-ci.md",
+      "summary": "Install dependencies and verify the lock file is up to date."
+    },
+    {
+      "id": "cli-pack-bundle",
+      "title": "pack bundle",
+      "category": "cli",
+      "path": "cli/pack-bundle.md",
+      "summary": "Bundle a QL library pack."
+    },
+    {
       "id": "ql-overview",
       "title": "QL Language Core",
       "category": "ql-language",
@@ -268,6 +282,13 @@
       "category": "ql-language",
       "path": "ql-language/modules.md",
       "summary": "Defining, importing, and parameterizing modules."
+    },
+    {
+      "id": "ql-types",
+      "title": "Types",
+      "category": "ql-language",
+      "path": "ql-language/types.md",
+      "summary": "Built-in types, classes, and type compatibility."
     },
     {
       "id": "lib-javascript",

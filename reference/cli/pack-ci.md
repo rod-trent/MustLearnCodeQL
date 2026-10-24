@@ -1,0 +1,31 @@
+# codeql pack ci
+
+Install dependencies and verify the lock file is up to date.
+
+## Synopsis
+
+```bash
+codeql pack ci [--force] <pack-dir>
+```
+
+## Description
+
+Performs a clean install of the dependencies listed in `codeql-pack.lock.yml` and fails if the lock file is missing or out of date relative to `qlpack.yml`. Intended for CI environments.
+
+## Key Options
+
+| Option | Description |
+|--------|-------------|
+| `<pack-dir>` | Root directory of the pack |
+| `--force` | Continue even if some checks would normally fail |
+
+## Example
+
+```bash
+codeql pack ci ./my-queries
+```
+
+## Notes
+
+- Prefer this over `pack install` in automated pipelines.
+- Related commands: `pack install`, `pack resolve-dependencies --mode=verify`.
