@@ -21,10 +21,17 @@ codeql resolve files [--include=<glob>] [--exclude=<glob>] <dir>
 | `--exclude` | Glob of files/directories to exclude |
 | `--prune` | Glob of directories to prune |
 
-## Example
+## Examples
 
 ```bash
+# All .ql files under a directory
 codeql resolve files --include=*.ql ./examples
+
+# Exclude test files
+codeql resolve files --include=*.ql --exclude=*test* ./my-queries
+
+# Prune an entire subdirectory
+codeql resolve files --prune=experimental ./my-queries
 ```
 
 ## Notes

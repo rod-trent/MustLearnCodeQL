@@ -21,11 +21,20 @@ codeql resolve library-path (--query=<qlfile> | --dir=<dir> | --root-pack=<pkg>)
 | `--root-pack` | Root pack name |
 | `--format` | `lines` (default), `json`, `path`, or `dbscheme` |
 
-## Example
+## Examples
 
 ```bash
+# Full resolution for a query
 codeql resolve library-path --query=examples/chapter04/small-int-triples.ql
+
+# JSON for scripting
 codeql resolve library-path --format=json --query=my-query.ql
+
+# Just the dbscheme
+codeql resolve library-path --format=dbscheme --query=my-query.ql
+
+# From a pack directory
+codeql resolve library-path --dir=./my-queries
 ```
 
 ## Notes

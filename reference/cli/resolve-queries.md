@@ -18,11 +18,20 @@ codeql resolve queries <query|dir|suite|pack>...
 |--------|-------------|
 | `<query\|dir\|suite\|pack>...` | Specifiers of the form `scope/name@range:path` |
 
-## Example
+## Examples
 
 ```bash
+# Default suite of a published pack
 codeql resolve queries codeql/javascript-queries
-codeql resolve queries ./my-queries/
+
+# A local directory of queries
+codeql resolve queries ./examples/chapter05
+
+# A specific suite
+codeql resolve queries codeql/javascript-queries:security-extended
+
+# Multiple specifiers
+codeql resolve queries ./my-queries codeql/python-queries
 ```
 
 ## Notes

@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -226,6 +226,13 @@
       "category": "cli",
       "path": "cli/pack-bundle.md",
       "summary": "Bundle a QL library pack."
+    },
+    {
+      "id": "cli-pack-workflow",
+      "title": "End-to-End Pack Workflow",
+      "category": "cli",
+      "path": "cli/pack-workflow.md",
+      "summary": "Complete workflow for creating, developing, and publishing a CodeQL pack."
     },
     {
       "id": "ql-overview",

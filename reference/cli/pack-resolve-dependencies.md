@@ -20,11 +20,20 @@ codeql pack resolve-dependencies [--mode=<mode>] [--format=<fmt>] <pack-dir>
 | `--mode` | `minimal-update` (default), `upgrade`, `verify`, or `no-lock` |
 | `--format` | `text` or `json` |
 
-## Example
+## Examples
 
 ```bash
+# Default (minimal-update)
 codeql pack resolve-dependencies ./my-queries
+
+# Fail if the lock file is stale (good for CI)
 codeql pack resolve-dependencies --mode=verify ./my-queries
+
+# Upgrade to latest compatible versions
+codeql pack resolve-dependencies --mode=upgrade ./my-queries
+
+# JSON output
+codeql pack resolve-dependencies --format=json ./my-queries
 ```
 
 ## Notes

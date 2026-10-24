@@ -20,11 +20,18 @@ Extracts a database archive created by `database bundle`. Performs better than p
 | `--name` | Name to give the extracted database |
 | `--target` | Directory to extract into (default: current directory) |
 
-## Example
+## Examples
 
 ```bash
+# Extract into the current directory
 codeql database unbundle my-js-db.zip
+
+# Extract with a new name into a specific folder
 codeql database unbundle --name=restored-db --target=./dbs my-js-db.zip
+
+# Then analyze the restored database
+codeql database analyze ./dbs/restored-db codeql/javascript-queries \
+  --format=sarif-latest --output=results.sarif
 ```
 
 ## Notes

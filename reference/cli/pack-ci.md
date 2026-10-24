@@ -19,10 +19,24 @@ Performs a clean install of the dependencies listed in `codeql-pack.lock.yml` an
 | `<pack-dir>` | Root directory of the pack |
 | `--force` | Continue even if some checks would normally fail |
 
-## Example
+## Examples
 
 ```bash
-codeql pack ci ./my-queries
+# From the pack root — preferred in CI
+codeql pack ci
+
+# Explicit path
+codeql pack ci ./my-security-queries
+
+# Continue past some non-fatal issues
+codeql pack ci --force ./my-queries
+```
+
+Typical CI snippet:
+
+```yaml
+- name: Verify pack lockfile
+  run: codeql pack ci
 ```
 
 ## Notes

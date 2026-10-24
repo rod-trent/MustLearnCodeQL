@@ -21,10 +21,14 @@ codeql pack bundle [--output=<file.tgz>] [--threads=<num>] [--ram=<MB>] <pack-di
 | `--threads` | Compilation threads |
 | `--ram` | Memory limit in MB |
 
-## Example
+## Examples
 
 ```bash
+# Bundle a library pack
 codeql pack bundle --output=my-lib.tgz ./my-library
+
+# Allocate more resources while bundling
+codeql pack bundle --threads=4 --ram=4096 --output=my-lib.tgz ./my-library
 ```
 
 ## Notes

@@ -19,11 +19,17 @@ codeql pack ls [--format=<fmt>] <dir>
 | `<dir>` | Pack or workspace root (default: current directory) |
 | `--format` | `text` or `json` |
 
-## Example
+## Examples
 
 ```bash
+# Current directory
 codeql pack ls
-codeql pack ls --format=json ./my-workspace
+
+# JSON
+codeql pack ls --format=json
+
+# A workspace root
+codeql pack ls ./my-codeql-workspace
 ```
 
 ## Notes
