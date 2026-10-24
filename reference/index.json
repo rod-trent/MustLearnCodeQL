@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.35.0",
+  "version": "0.36.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -148,7 +148,7 @@
       "title": "pack upgrade",
       "category": "cli",
       "path": "cli/pack-upgrade.md",
-      "summary": "Upgrade a pack’s dependencies to the latest versions."
+      "summary": "Upgrade a pack\u2019s dependencies to the latest versions."
     },
     {
       "id": "cli-pack-create",
@@ -303,6 +303,20 @@
       "category": "cli",
       "path": "cli/local-dev-workflow.md",
       "summary": "Develop and test queries on your machine."
+    },
+    {
+      "id": "cli-upgrade-workflow",
+      "title": "Upgrade Workflow",
+      "category": "cli",
+      "path": "cli/upgrade-workflow.md",
+      "summary": "Upgrade a CodeQL database after a CLI update."
+    },
+    {
+      "id": "cli-test-workflow",
+      "title": "Test Workflow",
+      "category": "cli",
+      "path": "cli/test-workflow.md",
+      "summary": "Run and accept CodeQL test cases."
     },
     {
       "id": "ql-overview",
@@ -559,6 +573,69 @@
       "language": "swift",
       "path": "libraries/swift/data-flow.md",
       "summary": "Data-flow patterns for Swift."
+    },
+    {
+      "id": "ql-annotations",
+      "title": "Annotations Overview",
+      "category": "ql-language",
+      "path": "ql-language/annotations-overview.md",
+      "summary": "Common QL annotations and their effects."
+    },
+    {
+      "id": "ql-aliases",
+      "title": "Aliases Overview",
+      "category": "ql-language",
+      "path": "ql-language/aliases-overview.md",
+      "summary": "Alternative names for predicates and classes."
+    },
+    {
+      "id": "ql-lexical-syntax",
+      "title": "Lexical Syntax",
+      "category": "ql-language",
+      "path": "ql-language/lexical-syntax.md",
+      "summary": "Keywords, identifiers, literals, and comments."
+    },
+    {
+      "id": "ql-name-resolution",
+      "title": "Name Resolution",
+      "category": "ql-language",
+      "path": "ql-language/name-resolution.md",
+      "summary": "How the QL compiler resolves names."
+    },
+    {
+      "id": "ql-formulas-overview",
+      "title": "Formulas Overview",
+      "category": "ql-language",
+      "path": "ql-language/formulas-overview.md",
+      "summary": "Logical formulas and quantifiers."
+    },
+    {
+      "id": "ql-expressions-overview",
+      "title": "Expressions Overview",
+      "category": "ql-language",
+      "path": "ql-language/expressions-overview.md",
+      "summary": "Common QL expressions."
+    },
+    {
+      "id": "ql-aggregates-overview",
+      "title": "Aggregates Overview",
+      "category": "ql-language",
+      "path": "ql-language/aggregates-overview.md",
+      "summary": "Aggregates and monotonic aggregates."
+    },
+    {
+      "id": "ql-recursion-details",
+      "title": "Recursion Details",
+      "category": "ql-language",
+      "path": "ql-language/recursion-details.md",
+      "summary": "Least fixed point and transitive closure."
+    },
+    {
+      "id": "ql-modules-overview",
+      "title": "Modules Overview",
+      "category": "ql-language",
+      "path": "ql-language/modules-overview.md",
+      "summary": "Defining and importing modules."
     }
   ]
 }
