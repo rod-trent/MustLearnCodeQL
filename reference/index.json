@@ -1,0 +1,45 @@
+{
+  "name": "Must Learn CodeQL Reference",
+  "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
+  "version": "0.1.0",
+  "entries": [
+    {
+      "id": "cli-overview",
+      "title": "CodeQL CLI Commands",
+      "category": "cli",
+      "path": "cli/README.md",
+      "summary": "Overview of core CodeQL CLI commands: database create, analyze, query run, resolve, etc."
+    },
+    {
+      "id": "ql-overview",
+      "title": "QL Language Core",
+      "category": "ql-language",
+      "path": "ql-language/README.md",
+      "summary": "Query structure, predicates, classes, modules, recursion, aggregates."
+    },
+    {
+      "id": "lib-javascript",
+      "title": "JavaScript/TypeScript Library",
+      "category": "libraries",
+      "language": "javascript",
+      "path": "libraries/javascript/overview.md",
+      "summary": "Key classes and predicates in the JavaScript standard library."
+    },
+    {
+      "id": "lib-python",
+      "title": "Python Library",
+      "category": "libraries",
+      "language": "python",
+      "path": "libraries/python/overview.md",
+      "summary": "Key classes and predicates in the Python standard library."
+    },
+    {
+      "id": "lib-java",
+      "title": "Java/Kotlin Library",
+      "category": "libraries",
+      "language": "java",
+      "path": "libraries/java/overview.md",
+      "summary": "Key classes and predicates in the Java/Kotlin standard library."
+    }
+  ]
+}
