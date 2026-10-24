@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -172,6 +172,20 @@
       "summary": "Install the dependencies of the current pack."
     },
     {
+      "id": "cli-pack-resolve-dependencies",
+      "title": "pack resolve-dependencies",
+      "category": "cli",
+      "path": "cli/pack-resolve-dependencies.md",
+      "summary": "Compute the set of required dependencies for a QL pack."
+    },
+    {
+      "id": "cli-pack-ls",
+      "title": "pack ls",
+      "category": "cli",
+      "path": "cli/pack-ls.md",
+      "summary": "List CodeQL packs rooted at a directory."
+    },
+    {
       "id": "ql-overview",
       "title": "QL Language Core",
       "category": "ql-language",
@@ -205,6 +219,13 @@
       "category": "ql-language",
       "path": "ql-language/qlpack.md",
       "summary": "Properties of a CodeQL pack definition file."
+    },
+    {
+      "id": "ql-query-metadata",
+      "title": "Query Metadata",
+      "category": "ql-language",
+      "path": "ql-language/query-metadata.md",
+      "summary": "Required and optional metadata properties for QL queries."
     },
     {
       "id": "lib-javascript",
