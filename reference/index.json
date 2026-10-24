@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -338,6 +338,13 @@
       "category": "ql-language",
       "path": "ql-language/type-system.md",
       "summary": "Primitives, classes, abstract classes, instanceof, and type compatibility."
+    },
+    {
+      "id": "ql-type-inference",
+      "title": "Type Inference and Typing Rules",
+      "category": "ql-language",
+      "path": "ql-language/type-inference.md",
+      "summary": "Subtyping, compatibility, typing environments, and practical inference rules."
     },
     {
       "id": "lib-javascript",
