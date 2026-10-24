@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.34.0",
+  "version": "0.35.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -289,6 +289,20 @@
       "category": "cli",
       "path": "cli/multi-language-workflow.md",
       "summary": "Analyze multiple languages in a monorepo."
+    },
+    {
+      "id": "cli-sarif-workflow",
+      "title": "SARIF Workflow",
+      "category": "cli",
+      "path": "cli/sarif-workflow.md",
+      "summary": "Produce, inspect, and upload SARIF results."
+    },
+    {
+      "id": "cli-local-dev-workflow",
+      "title": "Local Development Workflow",
+      "category": "cli",
+      "path": "cli/local-dev-workflow.md",
+      "summary": "Develop and test queries on your machine."
     },
     {
       "id": "ql-overview",
