@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -200,6 +200,20 @@
       "summary": "Determine the QL library path and dbscheme for a query."
     },
     {
+      "id": "cli-resolve-queries",
+      "title": "resolve queries",
+      "category": "cli",
+      "path": "cli/resolve-queries.md",
+      "summary": "Expand query directories, suites, and packs into individual .ql files."
+    },
+    {
+      "id": "cli-resolve-files",
+      "title": "resolve files",
+      "category": "cli",
+      "path": "cli/resolve-files.md",
+      "summary": "Expand inclusion/exclusion globs into a concrete file list."
+    },
+    {
       "id": "ql-overview",
       "title": "QL Language Core",
       "category": "ql-language",
@@ -247,6 +261,13 @@
       "category": "ql-language",
       "path": "ql-language/recursion.md",
       "summary": "Least fixed point, transitive closure, and mutual recursion."
+    },
+    {
+      "id": "ql-modules",
+      "title": "Modules",
+      "category": "ql-language",
+      "path": "ql-language/modules.md",
+      "summary": "Defining, importing, and parameterizing modules."
     },
     {
       "id": "lib-javascript",
