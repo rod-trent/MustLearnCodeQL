@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -352,6 +352,13 @@
       "category": "ql-language",
       "path": "ql-language/optimization.md",
       "summary": "Practical tips for writing faster CodeQL queries."
+    },
+    {
+      "id": "ql-data-flow-analysis",
+      "title": "Data Flow Analysis",
+      "category": "ql-language",
+      "path": "ql-language/data-flow-analysis.md",
+      "summary": "Local vs global data flow, taint tracking, and the modern ConfigSig API."
     },
     {
       "id": "lib-javascript",
