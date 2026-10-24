@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -137,6 +137,20 @@
       "summary": "Convert BQRS result data into other formats."
     },
     {
+      "id": "cli-version",
+      "title": "version",
+      "category": "cli",
+      "path": "cli/version.md",
+      "summary": "Print the CodeQL CLI version."
+    },
+    {
+      "id": "cli-pack-upgrade",
+      "title": "pack upgrade",
+      "category": "cli",
+      "path": "cli/pack-upgrade.md",
+      "summary": "Upgrade a pack’s dependencies to the latest versions."
+    },
+    {
       "id": "ql-overview",
       "title": "QL Language Core",
       "category": "ql-language",
@@ -221,12 +235,28 @@
       "summary": "Key classes and predicates in the C/C++ standard library."
     },
     {
+      "id": "lib-cpp-dataflow",
+      "title": "C/C++ Data Flow",
+      "category": "libraries",
+      "language": "cpp",
+      "path": "libraries/cpp/data-flow.md",
+      "summary": "Data-flow patterns for C/C++."
+    },
+    {
       "id": "lib-csharp",
       "title": "C# Library",
       "category": "libraries",
       "language": "csharp",
       "path": "libraries/csharp/overview.md",
       "summary": "Key classes and predicates in the C# standard library."
+    },
+    {
+      "id": "lib-csharp-dataflow",
+      "title": "C# Data Flow",
+      "category": "libraries",
+      "language": "csharp",
+      "path": "libraries/csharp/data-flow.md",
+      "summary": "Data-flow and taint-tracking patterns for C#."
     },
     {
       "id": "lib-go",
@@ -237,12 +267,28 @@
       "summary": "Key classes and predicates in the Go standard library."
     },
     {
+      "id": "lib-go-dataflow",
+      "title": "Go Data Flow",
+      "category": "libraries",
+      "language": "go",
+      "path": "libraries/go/data-flow.md",
+      "summary": "Data-flow patterns for Go."
+    },
+    {
       "id": "lib-ruby",
       "title": "Ruby Library",
       "category": "libraries",
       "language": "ruby",
       "path": "libraries/ruby/overview.md",
       "summary": "Key classes and predicates in the Ruby standard library."
+    },
+    {
+      "id": "lib-ruby-dataflow",
+      "title": "Ruby Data Flow",
+      "category": "libraries",
+      "language": "ruby",
+      "path": "libraries/ruby/data-flow.md",
+      "summary": "Data-flow patterns for Ruby."
     },
     {
       "id": "lib-rust",
@@ -253,12 +299,28 @@
       "summary": "Key classes and predicates in the Rust standard library."
     },
     {
+      "id": "lib-rust-dataflow",
+      "title": "Rust Data Flow",
+      "category": "libraries",
+      "language": "rust",
+      "path": "libraries/rust/data-flow.md",
+      "summary": "Data-flow patterns for Rust."
+    },
+    {
       "id": "lib-swift",
       "title": "Swift Library",
       "category": "libraries",
       "language": "swift",
       "path": "libraries/swift/overview.md",
       "summary": "Key classes and predicates in the Swift standard library."
+    },
+    {
+      "id": "lib-swift-dataflow",
+      "title": "Swift Data Flow",
+      "category": "libraries",
+      "language": "swift",
+      "path": "libraries/swift/data-flow.md",
+      "summary": "Data-flow patterns for Swift."
     }
   ]
 }
