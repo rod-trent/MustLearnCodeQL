@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -186,6 +186,20 @@
       "summary": "List CodeQL packs rooted at a directory."
     },
     {
+      "id": "cli-database-unbundle",
+      "title": "database unbundle",
+      "category": "cli",
+      "path": "cli/database-unbundle.md",
+      "summary": "Extract a CodeQL database archive."
+    },
+    {
+      "id": "cli-resolve-library-path",
+      "title": "resolve library-path",
+      "category": "cli",
+      "path": "cli/resolve-library-path.md",
+      "summary": "Determine the QL library path and dbscheme for a query."
+    },
+    {
       "id": "ql-overview",
       "title": "QL Language Core",
       "category": "ql-language",
@@ -226,6 +240,13 @@
       "category": "ql-language",
       "path": "ql-language/query-metadata.md",
       "summary": "Required and optional metadata properties for QL queries."
+    },
+    {
+      "id": "ql-recursion",
+      "title": "Recursion",
+      "category": "ql-language",
+      "path": "ql-language/recursion.md",
+      "summary": "Least fixed point, transitive closure, and mutual recursion."
     },
     {
       "id": "lib-javascript",
