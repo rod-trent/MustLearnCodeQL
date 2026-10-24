@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -331,6 +331,13 @@
       "category": "ql-language",
       "path": "ql-language/path-graphs.md",
       "summary": "How path graphs power path-problem queries and custom edges predicates."
+    },
+    {
+      "id": "ql-type-system",
+      "title": "Type System",
+      "category": "ql-language",
+      "path": "ql-language/type-system.md",
+      "summary": "Primitives, classes, abstract classes, instanceof, and type compatibility."
     },
     {
       "id": "lib-javascript",
