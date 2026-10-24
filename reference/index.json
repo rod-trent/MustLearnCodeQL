@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -30,6 +30,41 @@
       "category": "cli",
       "path": "cli/query-run.md",
       "summary": "Run a single query and print results."
+    },
+    {
+      "id": "cli-github-upload-results",
+      "title": "github upload-results",
+      "category": "cli",
+      "path": "cli/github-upload-results.md",
+      "summary": "Upload SARIF results to GitHub code scanning."
+    },
+    {
+      "id": "cli-pack-download",
+      "title": "pack download",
+      "category": "cli",
+      "path": "cli/pack-download.md",
+      "summary": "Download CodeQL packs from the registry."
+    },
+    {
+      "id": "cli-resolve-languages",
+      "title": "resolve languages",
+      "category": "cli",
+      "path": "cli/resolve-languages.md",
+      "summary": "List available language extractors."
+    },
+    {
+      "id": "cli-resolve-packs",
+      "title": "resolve packs",
+      "category": "cli",
+      "path": "cli/resolve-packs.md",
+      "summary": "List available CodeQL packs and their locations."
+    },
+    {
+      "id": "cli-database-info",
+      "title": "database info",
+      "category": "cli",
+      "path": "cli/database-info.md",
+      "summary": "Display metadata about a CodeQL database."
     },
     {
       "id": "ql-overview",

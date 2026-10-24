@@ -11,16 +11,22 @@ import ruby
 | Class | Description |
 |-------|-------------|
 | `File` | Source file |
+| `Module` | Module or class value |
+| `ClassDeclaration` | Class declaration |
 | `Method` | Method |
-| `ClassDeclaration` | Class |
+| `Parameter` | Parameter |
 | `Expr` | Expression |
 | `Stmt` | Statement |
 | `Call` | Call |
+| `DataFlow::Node` | Data-flow node |
 
-## Useful predicates (examples)
+## Useful predicates
 
 - `Method.getName()`
+- `Method.getParameter(int)`
 - `Method.getACall()`
-- `Expr.getParent()`
+- `ClassDeclaration.getName()`
+- `Call.getMethodName()`
+- `DataFlow::localFlow(source, sink)`
 
 For full details see the official [CodeQL standard library for Ruby](https://codeql.github.com/codeql-standard-libraries/ruby/).
