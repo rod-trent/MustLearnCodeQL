@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -116,6 +116,27 @@
       "summary": "Initialize a new CodeQL pack."
     },
     {
+      "id": "cli-database-run-queries",
+      "title": "database run-queries",
+      "category": "cli",
+      "path": "cli/database-run-queries.md",
+      "summary": "Run queries and store raw results in the database."
+    },
+    {
+      "id": "cli-database-interpret-results",
+      "title": "database interpret-results",
+      "category": "cli",
+      "path": "cli/database-interpret-results.md",
+      "summary": "Interpret previously computed results into SARIF or CSV."
+    },
+    {
+      "id": "cli-bqrs-decode",
+      "title": "bqrs decode",
+      "category": "cli",
+      "path": "cli/bqrs-decode.md",
+      "summary": "Convert BQRS result data into other formats."
+    },
+    {
       "id": "ql-overview",
       "title": "QL Language Core",
       "category": "ql-language",
@@ -152,6 +173,14 @@
       "summary": "Key classes and predicates in the JavaScript standard library."
     },
     {
+      "id": "lib-javascript-dataflow",
+      "title": "JavaScript Data Flow",
+      "category": "libraries",
+      "language": "javascript",
+      "path": "libraries/javascript/data-flow.md",
+      "summary": "Data-flow and taint-tracking patterns for JavaScript."
+    },
+    {
       "id": "lib-python",
       "title": "Python Library",
       "category": "libraries",
@@ -160,12 +189,28 @@
       "summary": "Key classes and predicates in the Python standard library."
     },
     {
+      "id": "lib-python-dataflow",
+      "title": "Python Data Flow",
+      "category": "libraries",
+      "language": "python",
+      "path": "libraries/python/data-flow.md",
+      "summary": "Data-flow and taint-tracking patterns for Python."
+    },
+    {
       "id": "lib-java",
       "title": "Java/Kotlin Library",
       "category": "libraries",
       "language": "java",
       "path": "libraries/java/overview.md",
       "summary": "Key classes and predicates in the Java/Kotlin standard library."
+    },
+    {
+      "id": "lib-java-dataflow",
+      "title": "Java Data Flow",
+      "category": "libraries",
+      "language": "java",
+      "path": "libraries/java/data-flow.md",
+      "summary": "Data-flow and taint-tracking patterns for Java/Kotlin."
     },
     {
       "id": "lib-cpp",
