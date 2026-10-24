@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -359,6 +359,13 @@
       "category": "ql-language",
       "path": "ql-language/data-flow-analysis.md",
       "summary": "Local vs global data flow, taint tracking, and the modern ConfigSig API."
+    },
+    {
+      "id": "ql-taint-tracking",
+      "title": "Taint Tracking",
+      "category": "ql-language",
+      "path": "ql-language/taint-tracking.md",
+      "summary": "Local and global taint tracking with ConfigSig, barriers, and additional steps."
     },
     {
       "id": "lib-javascript",
