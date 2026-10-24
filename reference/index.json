@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -324,6 +324,13 @@
       "category": "ql-language",
       "path": "ql-language/query-types.md",
       "summary": "problem, path-problem, metric, and diagnostic query kinds."
+    },
+    {
+      "id": "ql-path-graphs",
+      "title": "Path Graphs",
+      "category": "ql-language",
+      "path": "ql-language/path-graphs.md",
+      "summary": "How path graphs power path-problem queries and custom edges predicates."
     },
     {
       "id": "lib-javascript",
