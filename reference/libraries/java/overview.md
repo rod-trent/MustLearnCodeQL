@@ -30,6 +30,20 @@ import java
 
 - `Method.getName()`
 - `Method.getParameter(int)`
+- `Method.getACall()`
+- `MethodAccess.getMethod()`
+- `Class.getAMethod()`
+- `DataFlow::localFlow(source, sink)`
+- `TaintTracking::localTaint(source, sink)`
+
+## Additional notes
+
+- Kotlin is analyzed together with Java.
+- The library models many common frameworks (Spring, etc.).
+- See `data-flow.md` in this directory for configuration examples.
+
+- `Method.getName()`
+- `Method.getParameter(int)`
 - `Method.calls(Method)`
 - `Method.getDeclaringType()`
 - `Expr.getType()`

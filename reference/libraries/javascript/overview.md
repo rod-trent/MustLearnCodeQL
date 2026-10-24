@@ -30,6 +30,17 @@ import javascript
 - `Function.getName()`
 - `Function.getParameter(int)`
 - `Function.getACall()`
+- `CallExpr.getCalleeName()`
+- `DataFlow::localFlow(source, sink)`
+- `TaintTracking::localTaint(source, sink)`
+
+## Additional notes
+
+- `RemoteFlowSource` is the usual starting point for security queries.
+- Prefer the data-flow library over manual AST walking for taint tracking.
+- See `data-flow.md` in this directory for configuration examples.
+- `Function.getParameter(int)`
+- `Function.getACall()`
 - `CallExpr.getCallee()`
 - `CallExpr.getArgument(int)`
 - `Expr.getParent()`

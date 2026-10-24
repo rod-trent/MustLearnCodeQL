@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -233,6 +233,13 @@
       "category": "cli",
       "path": "cli/pack-workflow.md",
       "summary": "Complete workflow for creating, developing, and publishing a CodeQL pack."
+    },
+    {
+      "id": "cli-database-workflow",
+      "title": "Database Creation and Analysis Workflow",
+      "category": "cli",
+      "path": "cli/database-workflow.md",
+      "summary": "Complete workflow for creating a database and running analysis."
     },
     {
       "id": "ql-overview",

@@ -28,6 +28,14 @@ import python
 - `Function.getArg(int)`
 - `Function.getACall()`
 - `Class.getAMethod()`
+- `Call.getFunc()`
+- `DataFlow::localFlow(source, sink)`
+- `TaintTracking::localTaint(source, sink)`
+
+## Additional notes
+
+- Remote sources are modeled for common web frameworks.
+- See `data-flow.md` in this directory for taint-tracking patterns.
 - `Class.getName()`
 - `Call.getFunc()`
 - `Call.getArg(int)`
