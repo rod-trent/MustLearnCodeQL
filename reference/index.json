@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -93,6 +93,27 @@
       "category": "cli",
       "path": "cli/pack-publish.md",
       "summary": "Publish a QL pack to a package registry."
+    },
+    {
+      "id": "cli-database-bundle",
+      "title": "database bundle",
+      "category": "cli",
+      "path": "cli/database-bundle.md",
+      "summary": "Create a relocatable archive of a CodeQL database."
+    },
+    {
+      "id": "cli-database-export-diagnostics",
+      "title": "database export-diagnostics",
+      "category": "cli",
+      "path": "cli/database-export-diagnostics.md",
+      "summary": "Export diagnostic information from a database."
+    },
+    {
+      "id": "cli-pack-init",
+      "title": "pack init",
+      "category": "cli",
+      "path": "cli/pack-init.md",
+      "summary": "Initialize a new CodeQL pack."
     },
     {
       "id": "ql-overview",
