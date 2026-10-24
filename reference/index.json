@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -345,6 +345,13 @@
       "category": "ql-language",
       "path": "ql-language/type-inference.md",
       "summary": "Subtyping, compatibility, typing environments, and practical inference rules."
+    },
+    {
+      "id": "ql-optimization",
+      "title": "Query Optimization",
+      "category": "ql-language",
+      "path": "ql-language/optimization.md",
+      "summary": "Practical tips for writing faster CodeQL queries."
     },
     {
       "id": "lib-javascript",
