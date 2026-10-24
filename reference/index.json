@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -317,6 +317,13 @@
       "category": "ql-language",
       "path": "ql-language/types.md",
       "summary": "Built-in types, classes, and type compatibility."
+    },
+    {
+      "id": "ql-query-types",
+      "title": "Query Types",
+      "category": "ql-language",
+      "path": "ql-language/query-types.md",
+      "summary": "problem, path-problem, metric, and diagnostic query kinds."
     },
     {
       "id": "lib-javascript",
