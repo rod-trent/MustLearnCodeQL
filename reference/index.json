@@ -1,14 +1,35 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "entries": [
     {
       "id": "cli-overview",
       "title": "CodeQL CLI Commands",
       "category": "cli",
       "path": "cli/README.md",
-      "summary": "Overview of core CodeQL CLI commands: database create, analyze, query run, resolve, etc."
+      "summary": "Overview of core CodeQL CLI commands."
+    },
+    {
+      "id": "cli-database-create",
+      "title": "database create",
+      "category": "cli",
+      "path": "cli/database-create.md",
+      "summary": "Create a CodeQL database from source. Options, build modes, examples."
+    },
+    {
+      "id": "cli-database-analyze",
+      "title": "database analyze",
+      "category": "cli",
+      "path": "cli/database-analyze.md",
+      "summary": "Run queries against a database and produce SARIF or other results."
+    },
+    {
+      "id": "cli-query-run",
+      "title": "query run",
+      "category": "cli",
+      "path": "cli/query-run.md",
+      "summary": "Run a single query and print results."
     },
     {
       "id": "ql-overview",
@@ -16,6 +37,27 @@
       "category": "ql-language",
       "path": "ql-language/README.md",
       "summary": "Query structure, predicates, classes, modules, recursion, aggregates."
+    },
+    {
+      "id": "ql-formulas",
+      "title": "Formulas",
+      "category": "ql-language",
+      "path": "ql-language/formulas.md",
+      "summary": "Logical connectives, quantifiers, comparison."
+    },
+    {
+      "id": "ql-aggregates",
+      "title": "Aggregates",
+      "category": "ql-language",
+      "path": "ql-language/aggregates.md",
+      "summary": "count, sum, min, max, avg and related aggregates."
+    },
+    {
+      "id": "ql-data-flow",
+      "title": "Data-Flow Patterns",
+      "category": "ql-language",
+      "path": "ql-language/data-flow.md",
+      "summary": "Local and global data-flow / taint-tracking patterns."
     },
     {
       "id": "lib-javascript",
@@ -40,6 +82,54 @@
       "language": "java",
       "path": "libraries/java/overview.md",
       "summary": "Key classes and predicates in the Java/Kotlin standard library."
+    },
+    {
+      "id": "lib-cpp",
+      "title": "C/C++ Library",
+      "category": "libraries",
+      "language": "cpp",
+      "path": "libraries/cpp/overview.md",
+      "summary": "Key classes and predicates in the C/C++ standard library."
+    },
+    {
+      "id": "lib-csharp",
+      "title": "C# Library",
+      "category": "libraries",
+      "language": "csharp",
+      "path": "libraries/csharp/overview.md",
+      "summary": "Key classes and predicates in the C# standard library."
+    },
+    {
+      "id": "lib-go",
+      "title": "Go Library",
+      "category": "libraries",
+      "language": "go",
+      "path": "libraries/go/overview.md",
+      "summary": "Key classes and predicates in the Go standard library."
+    },
+    {
+      "id": "lib-ruby",
+      "title": "Ruby Library",
+      "category": "libraries",
+      "language": "ruby",
+      "path": "libraries/ruby/overview.md",
+      "summary": "Key classes and predicates in the Ruby standard library."
+    },
+    {
+      "id": "lib-rust",
+      "title": "Rust Library",
+      "category": "libraries",
+      "language": "rust",
+      "path": "libraries/rust/overview.md",
+      "summary": "Key classes and predicates in the Rust standard library."
+    },
+    {
+      "id": "lib-swift",
+      "title": "Swift Library",
+      "category": "libraries",
+      "language": "swift",
+      "path": "libraries/swift/overview.md",
+      "summary": "Key classes and predicates in the Swift standard library."
     }
   ]
 }
