@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.31.0",
+  "version": "0.32.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -254,6 +254,13 @@
       "category": "cli",
       "path": "cli/troubleshooting-workflow.md",
       "summary": "Steps to diagnose common CodeQL problems."
+    },
+    {
+      "id": "cli-incremental-workflow",
+      "title": "Incremental Analysis Workflow",
+      "category": "cli",
+      "path": "cli/incremental-workflow.md",
+      "summary": "Faster PR analysis using overlay databases."
     },
     {
       "id": "ql-overview",
