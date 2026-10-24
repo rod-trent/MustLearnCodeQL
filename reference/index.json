@@ -1,7 +1,7 @@
 {
   "name": "Must Learn CodeQL Reference",
   "description": "Offline, AI-ready reference of CodeQL CLI commands, QL language constructs, and key standard-library classes.",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "entries": [
     {
       "id": "cli-overview",
@@ -151,6 +151,27 @@
       "summary": "Upgrade a pack’s dependencies to the latest versions."
     },
     {
+      "id": "cli-pack-create",
+      "title": "pack create",
+      "category": "cli",
+      "path": "cli/pack-create.md",
+      "summary": "Build the contents of a QL package from source."
+    },
+    {
+      "id": "cli-pack-add",
+      "title": "pack add",
+      "category": "cli",
+      "path": "cli/pack-add.md",
+      "summary": "Add library pack dependencies and install them."
+    },
+    {
+      "id": "cli-pack-install",
+      "title": "pack install",
+      "category": "cli",
+      "path": "cli/pack-install.md",
+      "summary": "Install the dependencies of the current pack."
+    },
+    {
       "id": "ql-overview",
       "title": "QL Language Core",
       "category": "ql-language",
@@ -177,6 +198,13 @@
       "category": "ql-language",
       "path": "ql-language/data-flow.md",
       "summary": "Local and global data-flow / taint-tracking patterns."
+    },
+    {
+      "id": "ql-qlpack",
+      "title": "qlpack.yml Reference",
+      "category": "ql-language",
+      "path": "ql-language/qlpack.md",
+      "summary": "Properties of a CodeQL pack definition file."
     },
     {
       "id": "lib-javascript",
