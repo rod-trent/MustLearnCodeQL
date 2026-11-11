@@ -1,7 +1,7 @@
 /**
  * @name Global flow skeleton
- * @description Minimal skeleton of a global data-flow configuration.
- *              Replace the source and sink predicates with real ones for a working query.
+ * @description Skeleton of a global data-flow configuration.
+ *              Replace the placeholders with real sources and sinks.
  * @kind path-problem
  * @id mustlearn/js-global-flow-skeleton
  * @tags security
@@ -11,24 +11,20 @@
 import javascript
 import DataFlow::PathGraph
 
-module FlowConfig implements DataFlow::ConfigSig {
-  predicate isSource(DataFlow::Node source) {
-    source instanceof RemoteFlowSource
+class MyConfig extends DataFlow::Configuration {
+  MyConfig() { this = "MyConfig" }
+
+  override predicate isSource(DataFlow::Node source) {
+    // Placeholder: e.g. source instanceof RemoteFlowSource
+    none()
   }
 
-  predicate isSink(DataFlow::Node sink) {
-    sink = any(CallExpr c | c.getCalleeName() = "eval").getArgument(0).flow()
+  override predicate isSink(DataFlow::Node sink) {
+    // Placeholder: e.g. sink = any(CallExpr c | c.getCalleeName() = "eval").getArgument(0).flow()
+    none()
   }
-
-  // Optional: block flow through certain nodes
-  // predicate isBarrier(DataFlow::Node node) { ... }
-
-  // Optional: add custom flow steps
-  // predicate isAdditionalFlowStep(DataFlow::Node pred, DataFlow::Node succ) { ... }
 }
 
-module Flow = DataFlow::Global<FlowConfig>;
-
-from Flow::PathNode source, Flow::PathNode sink
-where Flow::flowPath(source, sink)
-select sink.getNode(), source, sink, "Flow from remote source to eval"
+from MyConfig cfg, DataFlow::PathNode source, DataFlow::PathNode sink
+where cfg.hasFlowPath(source, sink)
+select sink.getNode(), source, sink, "Global flow from source to sink."
