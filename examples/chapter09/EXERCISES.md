@@ -1,5 +1,6 @@
-# Additional Exercises
+# Chapter 9 Exercises
 
-- `exercise-sql-injection.ql` — Complete the sink and test against sample code.
-- `exercise-add-barrier.ql` — Add an `isBarrier` predicate.
-- See the book for full instructions and expected outcomes.
+1. Modify `remote-to-eval.ql` so that it also treats calls to `Function` (the constructor) as sinks.
+2. Add a barrier that stops taint through calls to a function named `escapeHtml`.
+3. Write a path query that tracks taint from a function parameter named `input` to a call to `document.write`.
+4. (Optional) Experiment with a simple flow state that tracks whether a value has been sanitized, and only report unsanitized paths.
