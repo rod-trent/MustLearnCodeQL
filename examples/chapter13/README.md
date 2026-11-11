@@ -1,5 +1,13 @@
-# Chapter 13 – Advanced Techniques
+# Chapter 13 Examples
 
-Contains examples focused on query performance, modular design, and debugging patterns.
+Example queries referenced in Chapter 13 of *Must Learn CodeQL*.
 
-Refer to the book for guidance on recursion, partial flow debugging, and optimization.
+## Files
+
+- `efficient-predicate.ql` — illustrates a more efficient predicate style.
+- `partial-flow-debug.ql` — skeleton for debugging partial flow.
+- `README.md` — this file.
+
+## Notes
+
+These are simplified illustrations. Performance characteristics depend on the database and the exact query. See the book chapter for guidance.
