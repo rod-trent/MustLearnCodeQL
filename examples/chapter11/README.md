@@ -1,5 +1,13 @@
-# Chapter 11 – Packs, Suites, and Metadata
+# Chapter 11 Examples
 
-Contains an example `qlpack.yml` and a simple query suite file (`.qls`).
+Example files referenced in Chapter 11 of *Must Learn CodeQL*.
 
-Refer to the book for metadata best practices and production packaging guidance.
+## Files
+
+- `qlpack.yml` — minimal pack manifest example.
+- `default.qls` — example suite file.
+- `README.md` — this file.
+
+## Notes
+
+These are illustrative fragments. In a real pack you would also have the query files and a proper directory layout. See the book chapter for the full workflow.
