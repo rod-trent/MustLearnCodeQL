@@ -1,5 +1,13 @@
-# Chapter 14 – Case Studies
+# Chapter 14 Examples
 
-Contains simplified real-world style queries (SQL injection, XSS, etc.).
+Example queries referenced in Chapter 14 of *Must Learn CodeQL*.
 
-Study these alongside the GitHub Security Lab Zero-to-Hero series referenced in the book.
+## Files
+
+- `sql-injection-seed.ql` — a simple seed query for SQL injection style issues.
+- `xss-seed.ql` — a simple seed query for XSS-style issues.
+- `README.md` — this file.
+
+## Notes
+
+These are simplified seeds meant to illustrate the idea of starting from a known pattern and generalizing. Real queries use the standard libraries’ modeled sources and sinks. See the book chapter for the full discussion.
