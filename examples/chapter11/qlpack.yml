@@ -1,4 +1,5 @@
 name: mustlearn/example-queries
-version: 1.0.0
+version: 0.1.0
 dependencies:
   codeql/javascript-all: "*"
+extractor: javascript
