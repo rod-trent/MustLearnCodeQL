@@ -1,16 +1,20 @@
-# Chapter 15 – Best Practices Checklist
+# Chapter 15 Resources
 
-## Query Writing
-- Keep predicates small and focused
-- Use library classes whenever possible
-- Document metadata thoroughly (@id, @name, @description, @kind, severity)
+Pointers referenced in Chapter 15 of *Must Learn CodeQL*.
 
-## Testing
-- Create expected-result tests for new queries
-- Validate against both vulnerable and safe examples
+## Official documentation
 
-## Contribution
-- Follow the official CodeQL contribution guidelines
-- Run the standard query suite locally before submitting
+- CodeQL documentation: https://codeql.github.com/docs/
+- CodeQL standard libraries: https://codeql.github.com/codeql-standard-libraries/
+- CodeQL language guides: https://codeql.github.com/docs/codeql-language-guides/
 
-See the book for the full discussion.
+## Companion repository
+
+- Must Learn CodeQL: https://github.com/rod-trent/MustLearnCodeQL
+- Examples by chapter: `examples/chapterNN/`
+- Offline reference: `reference/`
+
+## Further reading
+
+- GitHub Security Lab
+- CodeQL Zero to Hero series (GitHub)
